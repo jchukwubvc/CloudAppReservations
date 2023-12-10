@@ -20,6 +20,7 @@ jobs:
 
       - name: Install Dependencies and Build
         run: |
+          ls
           cd CloudReservationsApp 
           npm install
           npm run build
