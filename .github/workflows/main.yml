@@ -35,6 +35,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          cd CloudReservationsApp  
           docker build -t jchukwu493/cloudreservationsapp:latest .
           docker push jchukwu493/cloudreservationsapp:latest
